@@ -2,12 +2,14 @@ body {
     background-color: black;
     width: 95%;
     margin: auto;
+    color: aliceblue;
 }
 
 .header {
-    background: url('素材/starfield-banner.jpg ');
+    background: url('images/starfield-banner.jpg ');
     position: fixed;
     width: 95%;
+    height: 110px;
 }
 
 .header .logo-link {
@@ -15,6 +17,254 @@ body {
 }
 
 .header .logo {
+    display: inline-block;
     width:110px;
-    margin:11px;
+    margin-top:20px;
+}
+
+.header .top_nav{
+    display: inline-block;
+    width: 960px;
+    height: 40%;
+    position: absolute;
+    left: 200px;
+    top:5px; 
+    border: 3px solid red;
+}
+
+.header .top_nav .top1{
+    display: inline-block;
+    border-right: 3px solid grey;
+    width: 120px;
+    height: 30px;
+    margin: 5px 5px;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.header .top_nav .top2{
+    display: inline-block;
+    border-right: 3px solid grey;
+    width: 120px;
+    height: 30px;
+    margin: 5px 0px;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.header .top_nav .top3{
+    display: inline-block;
+    border-right: 3px solid grey;
+    width: 120px;
+    height: 30px;
+    margin: 5px 5px;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.header .top_nav .top4{
+    display: inline-block;
+    border-right: 3px solid grey;
+    width: 120px;
+    height: 30px;
+    margin: 5px 0px;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.header .top_nav .top5{
+    display: inline-block;
+    border-right: 3px solid grey;
+    width: 120px;
+    height: 30px;
+    margin: 5px 5px;
+    text-align: center;
+    line-height: 30px;
+
+}
+.header .top_nav .top4{
+    display: inline-block;
+    border-right: 3px solid grey;
+    width: 120px;
+    height: 30px;
+    margin: 5px 0px;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.header .top_nav .top5{
+    display: inline-block;
+    border-right: 3px solid grey;
+    width: 120px;
+    height: 30px;
+    margin: 5px 5px;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.header .top_nav .top6{
+    display: inline-block;
+    border-right: 3px solid grey;
+    width: 120px;
+    height: 30px;
+    margin: 5px 0px;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.header .top_nav .top7{
+    display: inline-block;
+    width: 140px;
+    height: 30px;
+    margin: 5px 5px;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.header .bot_nav{
+    display: inline-block;
+    width: 1040px;
+    height: 40%;
+    background-color: rgb(95, 93, 93);
+    border: 3px solid red;
+    position: absolute;
+    left: 150px;
+    top: 80px;
+}
+
+.header .bot_nav .bot1{
+    display: inline-block;
+    width: 140px;
+    height: 30px;
+    margin: 5px 0px;
+    border-right: 1px solid #fff;
+    text-align: center;
+    line-height: 30px;
+}
+
+.header .bot_nav .bot2{
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    margin: 5px 0px;
+    border-right: 1px solid #fff;
+    text-align: center;
+    line-height: 30px;
+}
+
+.header .bot_nav .bot3{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    margin: 5px 0px;
+    border-right: 1px solid #fff;
+    text-align: center;
+    line-height: 30px;
+}
+
+.header .bot_nav .bot4{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin: 5px 0px;
+    border-right: 1px solid #fff;
+    text-align: center;
+    line-height: 30px;
+}
+
+.header .bot_nav .bot5{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    margin: 5px 0px;
+    border-right: 1px solid #fff;
+    text-align: center;
+    line-height: 30px;
+}
+
+.header .bot_nav .bot6{
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    margin: 5px 0px;
+    border-right: 1px solid #fff;
+    text-align: center;
+    line-height: 30px;
+}
+
+.header .bot_nav .bot7{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    margin: 5px 0px;
+    border-right: 1px solid #fff;
+    text-align: center;
+    line-height: 30px;
+}
+
+.header .bot_nav .bot8{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    margin: 5px 0px;
+    border-right: 1px solid #fff;
+    text-align: center;
+    line-height: 30px;
+}
+
+.header .bot_nav .bot9{
+    display: inline-block;
+    width: 140px;
+    height: 30px;
+    margin: 5px 0px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.header .search{
+    display: inline-block;
+    width: 280px;
+    height: 40px;
+    position: absolute;
+    left: 1200px;
+    top: 5px;
+    border: 2px solid red;
+}
+
+.header .search .src{
+    float: left;
+    height: 36px;
+    width: 165px;
+    background-color: #333333;
+    border: 1px solid #333333;
+}
+
+.header .search .img{
+    display: inline-block;
+    position: relative;
+    right:40px;
+    background-image: url('images/search.svg');
+    background-color: transparent; 
+    border: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+
+}
+
+.header .search .share{
+    display: inline-block;
+    position: relative;
+    right: 50px;
+    width: 40px;
+    height: 40px;
+    border: none;
 }
